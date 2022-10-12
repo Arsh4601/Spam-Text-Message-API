@@ -1,0 +1,57 @@
+body
+{
+    background-color: aliceblue;
+    
+}
+
+
+div.container-intro
+{
+    
+    left: 50%;
+    top: 50%;
+    margin-left: -22%;
+    color: crimson;
+    position: absolute;
+    margin-top: -14%;
+    font-size :25px;
+    font-family: "Arial Verdena Helvetica";
+    
+    
+}
+
+div.container-advantage
+{
+    
+    left: 50%;
+    top: 50%;
+    margin-left: -22%;    
+    position: absolute;
+    margin-top: -2%;
+    font-size :20px;
+    font-family: "Arial Verdena Helvetica"
+}
+
+div.container-requirements
+{
+    
+    left: 50%;
+    top: 50%;
+    margin-left: -22%;    
+    position: absolute;
+    margin-top: 12%;
+    font-size :20px;
+    font-family: "Arial Verdena Helvetica"
+}
+
+div.test-button
+{
+    
+    left: 50%;
+    top: 50%;
+    margin-left: -22%;    
+    position: absolute;
+    margin-top: 22%;
+    font-size :20px;
+    font-family: "Arial Verdena Helvetica"
+}

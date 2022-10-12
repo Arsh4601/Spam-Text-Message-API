@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spam Message API </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='about.css')}}">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/">SPAM-Message API</a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          
+        </ul>
+    </nav> <br><br><br><br><br><br><br>
+
+    <div class="container-intro">
+
+      <b>WELCOME!!</b> to Spam-message API.<br>
+      Wanna Know if the message you recived is Fake or Not, <br>
+      then this API is just for you.
+  
+    </div>
+
+    <div class="container-advantage">
+
+      <b>Advantages of Spam-message Api:</b><br><br>
+
+      <ul style="list-style-type:disc">
+       
+        <li> API has an accuracy of 97% in classifying spam messages </li>
+        <li> It also  returns the Sentiment and Subjectivity of the message </li>
+        <li> It is a Light weight API </li>
+  
+    </div>
+
+    <div class="container-requirements">
+
+      <b>Requirements of Spam-message Api:</b><br><br>
+
+      <ul style="list-style-type:disc">
+       
+        <li> Strong Net connection </li>
+        
+  
+    </div>
+
+
+    <div class="test-button">
+
+      <b>You can test the Api by clicking on this button:</b><br><br>
+
+      <a href="{{url_for("is_spam",msg="BOB: you have recieved &#8337;300 as lottery please send bank details to redeem ")}}"> <button type="button" class="btn btn-dark btn-lg">Test</button> </a>
+        
+  
+    </div><br> <br>
+
+
+
+</body>
+
+</html>
